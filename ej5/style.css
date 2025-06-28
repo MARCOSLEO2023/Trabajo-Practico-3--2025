@@ -52,12 +52,3 @@ button {
     color:rgb(172, 172, 14) 
 }
 
-fieldset {
-    border: 1px solid #ccc; 
-    background-color: #094637;
-    width: 150px;
-    padding: 10px;
-    margin: 20px auto;
-    text-align: center;
-    border-radius: 20px;
-}
