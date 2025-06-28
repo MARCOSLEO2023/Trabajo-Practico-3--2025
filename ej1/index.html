@@ -1,36 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Ejercicio 1</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Calculadora</h1>
     <form action="">
-        <label for="num1">Número 1:</label>
-        <input id="num1" type="number" />
+      <label for="num1">Número 1:</label>
+      <input id="num1" type="number" />
 
-        <br>
+      <br />
 
-        <label for="num2">Número 2: </label>
-        <input id= "num2" type="number"/>
+      <label for="num2">Número 2: </label>
+      <input id="num2" type="number" />
 
-        <br>
-        <label for="operacion">Operación:</label>
-        <select id="operador">
-            <option value="suma">Suma</option>
-            <option value="resta">Resta</option>
-            <option value="multiplicacion">Multiplicación</option>
-            <option value="division">División</option>
-        </select>
+      <br />
+      <label for="operacion">Operación:</label>
 
-        <button id="boton">Calcular</button>
+      <select id="operador">
+        <option value="suma">Suma</option>
+        <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
+      </select>
+
+      <button id="boton">Calcular</button>
     </form>
 
-    <h3>Resultado: <span id="resultado"></span></h3>
+    <fieldset>
+      <h2>
+        Resultado:
+        <span id="resultado"></span>
+      </h2>
+    </fieldset>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
