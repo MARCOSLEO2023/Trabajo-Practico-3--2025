@@ -59,8 +59,8 @@ const App = () => {
         >
           Calcular
         </button>
-
-        <div>Resultado: {resultado}</div>
+        
+        <fieldset>Resultado: {resultado}</fieldset>
         {error && <div style={{ color: "red" }}>{error}</div>}
       </form>
     </>
